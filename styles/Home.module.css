@@ -113,6 +113,13 @@
   margin-left: 0.5rem;
 }
 
+
+.join-date-wrapper {
+  margin: 0;
+  padding: 0;
+  background: blue;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

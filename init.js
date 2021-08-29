@@ -1,4 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
+import FirebaseService from "./components/firebase/Service";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
@@ -8,3 +9,5 @@ export const PLASMIC = initPlasmicLoader({
     },
   ],
 });
+
+export const firebaseService = new FirebaseService();
